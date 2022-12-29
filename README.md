@@ -1,2 +1,2 @@
 # backend_joraf.net
-Backend Journal Ordinal
+Backend Journal Ordinaire
