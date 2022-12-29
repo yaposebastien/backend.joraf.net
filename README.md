@@ -1,2 +1,2 @@
-# backend_jorci
-Backend Journal Ordinal de la RCI
+# backend_joraf.net
+Backend Journal Ordinal
