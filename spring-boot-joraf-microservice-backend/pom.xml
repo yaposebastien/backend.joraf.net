@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>net.joraf</groupId>
-	<artifactId>spring-boot-joraf-microservice-backend</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>springboot-joraf-api-backend</artifactId>
+	<version>1.0.1</version>
 	<name>spring-boot-joraf-microservice-backend</name>
 	<description>Spring Boot Microservice for Journal(Officiel) Ordinaire des Republiques d&apos;Afrique Francophone</description>
 	<properties>
