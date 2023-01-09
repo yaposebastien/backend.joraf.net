@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
         "https://www.joraf.net", "https://joraf.net" })
 
 
-public interface JournalRepository extends MongoRepository<JournalOfficiel, String> {
+public interface JournalOfficielRepository extends MongoRepository<JournalOfficiel, String> {
 
     /*
     Adding function to search Journal Officiel by its Id
@@ -21,8 +21,8 @@ public interface JournalRepository extends MongoRepository<JournalOfficiel, Stri
     Page<JournalOfficiel> findJournalOfficielByJournalOfficielIdEquals(@RequestParam("journalOfficielId") String journalOfficielId, Pageable pageable);
 
     // Adding function to search Journal Officiel by its republique
-    Page<JournalOfficiel> findJournalOfficielByJournalRepubliqueEquals(@RequestParam("journalRepublique") String journalRepublique, Pageable pageable);
+    Page<JournalOfficiel> findJournalOfficielByJournalOfficielRepubliqueEquals(@RequestParam("journalOfficielRepublique") String journalOfficielRepublique, Pageable pageable);
 
     // Adding function to search Journal Officiel by its year
-    Page<JournalOfficiel> findJournalOfficielByJournalAnneeEquals(@RequestParam("journalAnnee") int journalAnnee, Pageable pageable);
+    Page<JournalOfficiel> findJournalOfficielByJournalOfficielAnneeEquals(@RequestParam("journalOfficielAnnee") int journalOfficielAnnee, Pageable pageable);
 }

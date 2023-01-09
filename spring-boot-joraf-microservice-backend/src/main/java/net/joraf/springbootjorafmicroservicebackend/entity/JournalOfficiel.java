@@ -2,14 +2,16 @@ package net.joraf.springbootjorafmicroservicebackend.entity;
 
 
 
+import com.mongodb.BasicDBObject;
 import lombok.*;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.format.annotation.DateTimeFormat;
 
-import java.util.Date;
-import java.util.Dictionary;
-import java.util.Hashtable;
-import java.util.Map;
+import java.time.LocalDate;
+import java.util.*;
 
 @Document(collection = "journaux")
 @Data
@@ -28,11 +30,14 @@ public class JournalOfficiel {
     private String journalOfficielNumeroComplet;
     private String journalOfficielType;
     private int journalOfficielAnnee;
-    private Date journalOfficielDatePublication;
+    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)
+    private LocalDate journalOfficielDatePublication;
     private String journalOfficielCompletUrlText;
     private String journalOfficielCompletUrlPdf;
-    private Map<String, String> journalOfficielListeDocumentsUrl;
-    private Map<String, Integer> journalOfficielTotalDocuments;
+    private Map<String, Object> journalOfficielListeDocumentsUrl = new HashMap<String, Object>();
+    private Map<String, Object> journalOfficielTotalDocuments = new HashMap<String, Object>();
+
+
 
 
 

@@ -1,10 +1,9 @@
 package net.joraf.springbootjorafmicroservicebackend.service;
 
 import net.joraf.springbootjorafmicroservicebackend.entity.JournalOfficiel;
-import org.springframework.stereotype.Service;
 
 
-public interface JournalService {
+public interface JournalOfficielService {
 
 
     // Adding function to save Journal Officiel

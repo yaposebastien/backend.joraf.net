@@ -1,7 +1,7 @@
 package net.joraf.springbootjorafmicroservicebackend.controller;
 
 import net.joraf.springbootjorafmicroservicebackend.entity.JournalOfficiel;
-import net.joraf.springbootjorafmicroservicebackend.service.JournalService;
+import net.joraf.springbootjorafmicroservicebackend.service.JournalOfficielService;
 import org.springframework.web.bind.annotation.*;
 
 @CrossOrigin(origins = { "http://localhost:4200", "http://joraf.net", "http://www.joraf.net",
@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/v1.0/joraf/journal-officiel/")
-public class JournalController {
+public class JournalOfficielController {
 
     // Injection of Journal Officiel Service
-    private JournalService journalService;
+    private JournalOfficielService journalService;
 
     // Endpoint to add new journal officiel
     @PostMapping("/ajouter")
