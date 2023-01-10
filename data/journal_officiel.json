@@ -1,0 +1,31 @@
+
+[
+{
+"journalOfficielRepublique":"Côte d'Ivoire",
+"journalOfficielCodeRepublique": "CI",
+"journalOfficielAnneeEnLettre":"SOIXANTE-ET-UNIEME ANNEE",
+"journalOfficielNumero":3,
+"journalOfficielNumeroComplet":"CI-JO-03-20200109",
+"journalOfficielType":"ORDINAIRE",
+"journalOfficielAnnee":2020,
+"journalOfficielDatePublication":"2020-01-09",
+"journalOfficielCompletUrlText":"https://joraf-api-documents.s3.us-east-2.amazonaws.com/documents/CI/2020/JO-01-20200102/JO-01-20200102.txt",
+"journalOfficielCompletUrlPdf":"https://joraf-api-documents.s3.us-east-2.amazonaws.com/documents/CI/2020/JO-01-20200102/JO-01-20200102.pdf",
+"journalOfficielListeDocumentsUrl":
+	{
+	"Sommaire":"https://joraf-api-documents.s3.us-east-2.amazonaws.com/documents/CI/2020/JO-01-20200102/Sommaire-JO-01-20200102.txt", 
+	"Decrets":"https://joraf-api-documents.s3.us-east-2.amazonaws.com/documents/CI/2020/JO-01-20200102/Decrets-JO-01-20200102.txt",
+	"Arretes":"https://joraf-api-documents.s3.us-east-2.amazonaws.com/documents/CI/2020/JO-01-20200102/Arretes-JO-01-20200102.txt",
+	"Annonces":"https://joraf-api-documents.s3.us-east-2.amazonaws.com/documents/CI/2020/JO-01-20200102/Annonces-JO-01-20200102.txt"
+	},
+"journalOfficielTotalDocuments":
+	{
+	"Decrets":7,
+	"Arretes":3,
+	"Annonces":12
+	}
+}
+
+
+
+]

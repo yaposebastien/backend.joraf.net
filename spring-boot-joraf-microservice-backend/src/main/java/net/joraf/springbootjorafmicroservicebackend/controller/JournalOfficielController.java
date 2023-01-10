@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
         "https://www.joraf.net", "https://joraf.net" })
 
 @RestController
-@RequestMapping("/api/v1.0/joraf/journal-officiel/")
+@RequestMapping("/api/v1.1/joraf/journal-officiel/")
 public class JournalOfficielController {
 
     // Injection of Journal Officiel Service
