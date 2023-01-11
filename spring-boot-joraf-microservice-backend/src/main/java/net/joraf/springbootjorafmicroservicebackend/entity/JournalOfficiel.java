@@ -36,6 +36,7 @@ public class JournalOfficiel {
     private String journalOfficielCompletUrlPdf;
     private Map<String, Object> journalOfficielListeDocumentsUrl = new HashMap<String, Object>();
     private Map<String, Object> journalOfficielTotalDocuments = new HashMap<String, Object>();
+    private Map<String, Object> journalOfficielTags = new HashMap<String, Object>();
 
 
 
